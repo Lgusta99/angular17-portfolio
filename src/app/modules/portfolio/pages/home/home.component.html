@@ -1,0 +1,19 @@
+<app-header/>
+
+
+<main>
+    <app-knowledge/>
+    <app-experiences/>
+
+    @defer (on viewport) {
+        <app-projects/>
+    } @placeholder {
+        <section>
+            <h2>Carregando Progetos...</h2>
+        </section>
+    } @error {
+        <section>
+            <h2>Erro no download do componente ...</h2>
+        </section>
+    }
+</main>
