@@ -24,16 +24,16 @@ export class ProjectsComponent {
   public arrayProjects = signal<IProjects[]>([
    
     {
-      src: 'assets/img/projects/vfull.png',
-      alt: 'Projeto vida FullStack',
-      title: 'vida FullStack',
+      src: 'assets/img/projects/lista-de-tarefas.png',
+      alt: 'lista angular 17',
+      title: 'lista angular 17',
       with: '100px',
       height: '50px',
-      description: 'colocar erfgvejrthgnjaerni;ujgvnbu;akshldfhjkvbarldfugbvjkndvl;askjhUIOGHFRUIQEBAJKLFVNIOQERTHJAIONMFVROPJQWAIOGHNJKLNMDWFNGWERNG LRENJ;KWTHGNK QWEGRTHGRTQH WERTHRTYHNBWRSFGHJRY JEWSRGH ETYUEIKDJSTYRJ ETYDEJAHSRTYUHJET YUIJ',
+      description: 'Uma lista de tarefas onde você pode estar adicionando tarefas, confirmando se já fés afazeres, editando o que já foi colocado ou deletando item, feito em angular 17.',
       links: [
         {
-          name: 'Conheça o blog',
-          href: 'https://vidafullstack.com.br'
+          name: 'Ir para a projeto  ',
+          href: 'dd'
         },
       ],
     },
