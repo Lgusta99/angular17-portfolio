@@ -33,7 +33,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Ir para a projeto  ',
-          href: 'dd'
+          href: 'https://angular17-todo-list.vercel.app/'
         },
       ],
     },
