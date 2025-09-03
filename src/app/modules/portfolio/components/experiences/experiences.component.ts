@@ -12,6 +12,14 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summery: {
+        company: 'Banco Santander (Brasil) S.A.',
+        strong: 'Estágio em auditoria de riscos tecnológicos',
+        p: 'Julho de 2024 até atualmente',
+      },
+      text: 'responsável por auditar os sistemas, automatizar a aria, processos e controle de tecnologia da informação, identificando riscos, vulnerabilidades e não conformidades, além de propor melhorias que aumenta a segurança, a eficiência operacional e as normas internas regularias.',
+    },
+    {
+      summery: {
         company: 'Cognizant Technology Solutions',
         strong: 'Estágio em desenvolvimento de software e QA',
         p: 'Novembro de 2021 até março 2023',
@@ -28,7 +36,7 @@ export class ExperiencesComponent {
     },
     {
       summery: {
-        company: '',
+        company: 'Talentum Informática',
         strong: 'Suporte técnico (Help Desk N3)',
         p: 'Outubro de 2019 até dezembro de 2019',
       },
@@ -36,7 +44,7 @@ export class ExperiencesComponent {
     },
     {
       summery: {
-        company: '',
+        company: 'Empresa gráfica Paperpack',
         strong: 'Estágio em suporte técnico (Help Desk N2)',
         p: 'Janeiro de 2019 até março de 2019',
       },

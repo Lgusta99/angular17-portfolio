@@ -32,6 +32,14 @@ export class KnowledgeComponent {
       src: 'assets/icons/knowledge/angular.svg',
       alt: 'Icone angular',
     },
+    {
+      src: 'assets/icons/knowledge/Nx.svg',
+      alt: 'Icone Nx',
+    },
+    {
+      src: 'assets/icons/knowledge/python.svg',
+      alt: 'Icone python',
+    }
   ])
 
 }
