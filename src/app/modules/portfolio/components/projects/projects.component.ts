@@ -47,7 +47,7 @@ export class ProjectsComponent {
       links: [
         {
           name: 'Ir para a projeto  ',
-          href: 'https://angular17-todo-list.vercel.app/'
+          href: 'https://champion-finder-shell.vercel.app/lol'
         },
       ],
     },
